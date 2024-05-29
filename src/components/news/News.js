@@ -29,9 +29,12 @@ const News = () => {
         <img src={ele.urlToImage == null ? "https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM=" : ele.urlToImage} class="card-img-top" alt="Loading..." />
               <div class="card-body">
                 <h5 class="card-title">{ele.author === null ? "Author :" : ele.author}</h5>
-                {/* <h5 class="card-title">{ele.author === "" ? "Janelle Ash" : ele.author}</h5> */}
+                {/* <h5 class="card-title">{ele.author === "" ? "
+                 Ash" : ele.author}</h5> */}
                 <p class="card-text"> {ele.title}  </p>
+                {/* <a href={ele.url}  target="_blank" class="btn btn-primary"> Read More  </a>      */}
                 <a href={ele.url} rel="noreferrer" target="_blank" class="btn btn-primary"> Read More  </a>     
+
               </div>
             </div>
 
