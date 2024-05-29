@@ -9,6 +9,6 @@ const App = () => {
       <News/>  
     </>
   )
-}
+}  
 
 export default App
